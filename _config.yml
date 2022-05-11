@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "ko-KR"
 title                    : "far away"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "version 1.0"# site tagline that appears below site title in masthead
 name                     : "김수환(Suhwan Kim)"
 description              : "이것 저것 기록하는 곳"
 url                      : "https://suhwan2004.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -288,3 +288,11 @@ defaults:
       comments: # true
       share: true
       related: true
+  
+  # _pages                      : 해당 하단 영역이 새로 추가되었습니다.
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true

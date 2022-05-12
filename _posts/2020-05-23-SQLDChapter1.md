@@ -1,10 +1,9 @@
 ﻿---
-title : "SQLD - Chapter.1 데이터 모델링의 이해"
-last_modified_at : 2022-05-11 
+title: "SQLD - Chapter.1 데이터 모델링의 이해"
 categories:
-	- SQLD 관련 정리
-tags 
-	- SQLD
+  - SQLD
+tags:
+  - SQLD
 ---
 
 ## SQLD - Chapter.1 데이터 모델링의 이해

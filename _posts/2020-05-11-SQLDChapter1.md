@@ -1,12 +1,10 @@
-﻿---
+---
 title: "SQLD - Chapter.1 데이터 모델링의 이해"
 categories:
   - SQLD
 tags:
   - SQLD
 ---
-
-## SQLD - Chapter.1 데이터 모델링의 이해
 
 ### 모델
 

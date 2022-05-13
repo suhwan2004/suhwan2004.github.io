@@ -1,5 +1,5 @@
 ﻿---
-title: "SQLD - Chapter.2 데이터 모델과 SQL"
+title: "SQLD - PART1 -Chapter2 데이터 모델과 SQL"
 categories:
   - SQLD
 tags:

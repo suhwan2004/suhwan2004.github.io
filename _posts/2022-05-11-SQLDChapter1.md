@@ -1,5 +1,5 @@
 ---
-title: "SQLD - Chapter.1 데이터 모델링의 이해"
+title: "SQLD - PART1 - Chapter1 데이터 모델링의 이해"
 categories:
   - SQLD
 tags:

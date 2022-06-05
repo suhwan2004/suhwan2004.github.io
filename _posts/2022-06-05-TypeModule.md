@@ -1,4 +1,4 @@
-﻿---
+---
 title: "JS - Module"
 categories:
   - FrontEnd

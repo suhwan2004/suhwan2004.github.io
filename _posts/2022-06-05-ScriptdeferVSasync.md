@@ -1,10 +1,9 @@
 ﻿---
-title: "script defer vs async"
+title: "Script defer vs async"
 categories:
   - FrontEnd
 tags:
   - HTML
-	- JavaScript
 ---
 
 ![가슴이 웅장해진다(deferVSasync)](https://user-images.githubusercontent.com/60723373/172036374-f90bcf26-1ec9-4c97-9f7e-3f4f8b544573.jpg)

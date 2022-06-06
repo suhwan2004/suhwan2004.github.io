@@ -1,4 +1,5 @@
 ﻿---
+publish : true
 title: "프로그래머스 프론트엔드 과제 - 고양이 사진첩"
 categories:
   - FrontEnd

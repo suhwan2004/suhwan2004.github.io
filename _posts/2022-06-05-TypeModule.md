@@ -1,4 +1,5 @@
 ---
+publish: true
 title: "JS - Module"
 categories:
   - FrontEnd

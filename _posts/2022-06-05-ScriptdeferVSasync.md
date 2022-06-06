@@ -1,4 +1,5 @@
 ﻿---
+publish: true
 title: "Script defer vs async"
 categories:
   - FrontEnd

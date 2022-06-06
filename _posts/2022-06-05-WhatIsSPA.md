@@ -1,4 +1,5 @@
 ﻿---
+publish: true
 title: "SPA란 무엇이고 왜 쓰는걸까?"
 categories:
   - FrontEnd

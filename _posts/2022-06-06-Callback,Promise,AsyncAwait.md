@@ -1,5 +1,5 @@
 ﻿---
-publish : true
+published: true
 title: "JS - callBack, Promise, async/await"
 categories:
   - FrontEnd

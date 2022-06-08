@@ -1,5 +1,5 @@
 ﻿---
-publish: true
+published: true
 title: "학교 - 4학년 1학기 파멸의 기말고사 - 인공지능의 역습"
 categories:
   - PTU

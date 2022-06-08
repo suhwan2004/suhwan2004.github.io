@@ -18,6 +18,7 @@ tags:
 넓게 보면 이 3가지의 과정인 것 같습니다.
 
 ![image](https://user-images.githubusercontent.com/60723373/172627199-dfe70a2c-fc88-457f-82b6-7bcfad797231.png)
+
 물론, 이렇게 설명하면 이미 브라우저 랜더링을 알고 있는 사람 빼고는 '얘가 무슨 말을 하는거지??'라는 생각을 가질 것 같습니다.
 
 그리해서, 이번 페이지에서는 **1번. 도메인을 통해 파일들을 받아오는 과정**에 대해 설명하고 다음 페이지에서 2번과정, 다다음 페이지에서 3번과정을 설명하는 느낌의 시리즈 물로 만들어 보고자 합니다.
@@ -35,7 +36,7 @@ tags:
 
 이렇게 두 가지 경우가 존재하는데요.
 
-먼저, DNS, DNS 서버 그리고 DNS 레코드에 대해 간략히 이해하고 가보자면...
+먼저, DNS, 네임서버 그리고 DNS 레코드에 대해 간략히 이해하고 가보자면...
 
 1. **DNS(Domain Name System)** 은 범국제적 단위로 **웹사이트의 IP 주소와 도메인 주소를 이어주는 환경/시스템** 입니다. 약간 자료구조의 Hash Map 느낌인데 우리가 친 주소(key)를 통해 IP(value)를 찾게 해준다고 볼 수 있습니다.
 2. 네임 서버는 이런 DNS를 운영하는 서버입니다.
@@ -47,7 +48,7 @@ tags:
 
 이 경우는 저희가 이 사이트를 이미 방문한 전적이 있을 때 발생하는 경우입니다.
 
-한 마디로, 이미 간 기록이 캐시 내에 존재하기 때문에 저희는 굳이 DNS 서버까지 가서 IP를 찾고 다시 돌아오는 고생을 할 필요가 없기 때문에 네트워크 트래픽, 데이터 전송 시간이 개선될 수 있기 때문에 더 좋다고 하네요.
+한 마디로, 이미 간 기록이 캐시 내에 존재하기 때문에 저희는 굳이 DNS 서버까지 가서 IP를 찾고 다시 돌아오는 고생을 할 필요가 없기 때문에 네트워크 트래픽, 데이터 전송 시간이 개선될 수 있기 때문에 더 좋습니다.
 
 먼저, 캐시에는 찾아보니 4가지 종류가 있었습니다. 아래는 과정이 저희가 원하는 정보를 찾는 과정이 기술되어 있습니다.
 
@@ -59,8 +60,8 @@ tags:
 
 4. 라우터 캐시에도 없다?? 이러면 마지막으로 **ISP 캐시**를 보러 갑니다. ISP는 DNS 레코드 캐시를 포함하는 자체 DNS 서버를 유지관리 하기 때문에 한번 찔러 봅니다.
 
-?? : 캐시 다 뒤져봤는데 없는데요? 저 어떡하죠?
-A : 어떡하긴 그냥 네임 서버 가야지요 히히
+- ?? : 캐시 다 뒤져봤는데 없는데요? 저 어떡하죠?
+- A : 어떡하긴 그냥 네임 서버 가야지요 히히
 
 ### 2.2 DNS 서버로 가는 경우
 
@@ -164,5 +165,5 @@ Browser Rendering 과정은 다음 포스트 글을 확인해주심 될 것 같�
 
 ## Reference
 
-https://devjin-blog.com/what-happen-browser-search/
-https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
+- https://devjin-blog.com/what-happen-browser-search/
+- https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a

@@ -161,3 +161,8 @@ Status code란 현재 response의 상태를 의미하고 총 5가지의 종류�
 Browser Rendering 과정은 다음 포스트 글을 확인해주심 될 것 같아요. 오늘은 여기서 마치겠습니다.
 
 감사합니다!
+
+## Reference
+
+https://devjin-blog.com/what-happen-browser-search/
+https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a

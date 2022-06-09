@@ -1,10 +1,10 @@
 ﻿---
 published: true
-title: "Browser Rendering 1  -  주소창에 URL을 입력하면 어떤 과정이 발생할까?"
+title: "BrowserRendering - 1 - 주소창에 구글을 치면 어떻게 될까?"
 categories:
   - FrontEnd
 tags:
-  - 필수지식
+  - FrontEnd
 ---
 
 해당 시리즈는 브라우저내에서 원하는 페이지를 화면에 띄울때 정말 여러 개의 과정이 존재하는데 그 과정들에 대해 공부한 내용을 정리하고 복습하기 위해 만든 페이지입니다.
@@ -116,7 +116,7 @@ tags:
 
 - browser identification(User-Agent 헤더)
 - 받아들일 요청의 종류(Accept 헤더)
-- 추갖거인 요청을 위해 TCP connection을 유지를 요청하는 connection 헤더
+- 추가적인 요청을 위해 TCP connection을 유지를 요청하는 connection 헤더
 - 브라우저에서 얻은 쿠키 정보
 - 기타 등등
   ![image](https://user-images.githubusercontent.com/60723373/172645177-e1d0c579-90dc-4cee-9615-e5afd460176a.png)

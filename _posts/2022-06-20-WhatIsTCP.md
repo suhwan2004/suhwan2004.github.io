@@ -31,7 +31,7 @@ tags:
 
 ![image](https://user-images.githubusercontent.com/60723373/174483755-cd141b88-9ecb-4252-ab66-fb0a83c8af6f.png)
 
-(TCP/IP Protocol은 위에서 봤듯이 인터넷 프로토콜입니다.)
+(TCP/IP Protocol은 위에서 봤듯이 인터넷 프로토콜입니다!)
 
 오른쪽의 TCP/IP Protocol의 4가지 계층을 보면 OSI 7 계층을 좀 더 넓게 보고 구성한 느낌입니다. 또한, 위에서 말했듯이 TCP의 경우 전송 계층에 있고, IP의 경우 Internet 계층에 있는 것을 알 수 있습니다.
 
